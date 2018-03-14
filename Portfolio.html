@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="template.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="bar white wide padding card">
+    <a href="#home" class="bar-item button"><b>PD</b> Portfolio</a>
+
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="right hide-small">
+      <a href="resume.pdf" class="bar-item button">Resume</a>
+
+      <a href="#projects" class="bar-item button">Projects</a>
+      <a href="#about" class="bar-item button">About</a>
+      <a href="#contact" class="bar-item button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="display-container content wide" style="max-width:1500px;" id="home">
+
+  <img class="image" src="images/grey.jpeg" alt="Architecture" width="1500" height="800">
+  <div class="display-middle margin-top center">
+    <h1 class="xxlarge text-white"><span class="padding black opacity-min"><b>Phu Dang</b></span> <span class="hide-small text-light-grey">Portfolio</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="content padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="container padding-32" id="projects">
+    <h3 class="border-bottom border-light-grey padding-16">Projects</h3>
+  </div>
+
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">
+          <a href ="http://homepages.neiu.edu/~ptdang1/index.php"> Nivarna Spa & Resorts </a>
+        </div>
+          <a href ="http://homepages.neiu.edu/~ptdang1/index.php">
+          <img src="images/resort1.jpg" alt="nirvana" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">
+          <a href ="https://github.com/ptdang1"> GitHub </a>
+        </div>
+          <a href ="https://github.com/ptdang1">
+            <img src="images/github.png" alt="github" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Hackerrank</div>
+        <img src="images/hackerrank.jpg" alt="hackerrank" style="width:100%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">
+          <a href ="http://cs315dangfirstapp.us-east-2.elasticbeanstalk.com/cloudphp/index.php">
+          AWS Amazon Cloud PHP</a>
+        </div>
+          <a href ="http://cs315dangfirstapp.us-east-2.elasticbeanstalk.com/cloudphp/index.php">
+          <img src="images/aws.jpg" alt="aws" style="width:100%">
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row-padding">
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Incoming</div>
+        <img src="images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Incoming</div>
+        <img src="images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Incoming</div>
+        <img src="images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="col l3 m6 margin-bottom">
+      <div class="display-container">
+        <div class="display-topleft black padding">Incoming</div>
+        <img src="images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="container padding-32" id="about">
+    <h3 class="border-bottom border-light-grey padding-16">About Me</h3>
+
+      <div style="padding:10px; text-align:center;">
+        <img id="myPic" src="images/pd.jpg" alt="a picture of myself">
+        <h4>Phu Dang<br/>Software Engineer</h4>
+      </div>
+    <p>I'm a senior of Computer Science, Concentration in Network Security. I’m passionate about code, startups and technology. Always learning, always growing, and always persuing a better way.
+    </p>
+    <dl>
+          <dt>TECHNICAL SKILLS</dt>
+          <dd>Languages: Java, JavaScript, Python, HTML, CSS, PHP, SQL, Swift</dd>
+          <dd>Tools: IntelliJ IDEAL, Eclipse, Android Studio, Xcode, Sublime Text, Text Wrangler, Notepad++, jGRASP, Microsoft Office</dd>
+          <dd>Operating Systems: Windows, Mac OS X, Linux</dd>
+    </dl>
+  </div>
+
+
+  <!-- Contact Section -->
+  <div class="container padding-32" id="contact">
+    <h3 class="border-bottom border-light-grey padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your and our next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="input" type="text" placeholder="Name" required name="Name">
+      <input class="input section" type="text" placeholder="Email" required name="Email">
+      <input class="input section" type="text" placeholder="Subject" required name="Subject">
+      <input class="input section" type="text" placeholder="Comment" required name="Comment">
+      <button class="button black section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+
+</div>
+<!-- End page content -->
+
+<!-- Footer -->
+<footer class="center black padding-16">
+    <!-- 
+    <a href="https://www.linkedin.com/in/ugur-armagan" class="links"><span class="fa fa-linkedin"> : linkedin.com/in/ugur-armagan/</span></a>
+    -->
+    <a href="mailto:ptdang1@neiu.edu" target="_top" class="links"><span class="fa fa-envelope"> Email : ptdang1@neiu.edu</span></a>
+    <br/>
+    <a href="https://github.com/phudang1" class="links"><span class="fa fa-github"> Github : https://github.com/phudang1</span></a>
+</footer>
+
+</body>
+</html>
