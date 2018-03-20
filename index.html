@@ -15,11 +15,12 @@
 <!-- Navbar (sit on top) missing ID link to resume-->
 <div class="topnav">
 
-      <a href="#home"><b>PD</b> Portfolio</a>
+      <a href="#home">  <i class="fa fa-th"></i><b>PD</b> Portfolio</a>
+
     <div class="top-right">
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#projects">  <i class="fa fa-code"></i> Projects</a>
+      <a href="#about">  <i class="fa fa-user"></i> About</a>
+      <a href="#contact">  <i class="fa fa-envelope"></i> Contact</a>
     </div>
 </div>
 
@@ -40,69 +41,69 @@
         	</a>
 
 </div>
-  <div class="padding-bottom-32">
+  <div class="padding-bottom-32" style="background-color: #f1f1f1;">
   </div>
 
 <!-- Page content -->
 
 <div class="content">
   <!-- Project-->
-      <h3 id="projects">Projects</h3>
-      <hr>
-      <br/><br/><br/>
+        <h3 id="projects">Projects</h3>
+        <hr>
+        <br/><br/><br/>
 
-      <!-- Row 1-->
-        <div class="row">
-          <div class="column">
-            
-            <a href ="http://homepages.neiu.edu/~ptdang1/project_PHP/index.php">
-              <img src="images/nirvana_black.jpeg" alt ="nirvana" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href ="https://github.com/ptdang1">
-              <img src="images/github_black.png" alt ="github" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href ="http://cs315dangfirstapp.us-east-2.elasticbeanstalk.com/cloudphp/index.php">
-              <img src="images/aws_black.png" alt="aws" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href="https://github.com/ptdang1/HackerRank">
-              <img src="images/hackerrank_black.png" alt="hackerrank" style="width:100%"/>
-            </a>
-            
-          </div>
-       </div>
-       <!-- Row2-->
-       <br/><br/>
+        <!-- Row 1-->
+          <div class="row">
+            <div class="column">
+              
+              <a href ="http://homepages.neiu.edu/~ptdang1/project_PHP/index.php">
+                <img src="images/nirvana_black.jpeg" alt ="nirvana" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href ="https://github.com/ptdang1">
+                <img src="images/github_black.png" alt ="github" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href ="http://cs315dangfirstapp.us-east-2.elasticbeanstalk.com/cloudphp/index.php">
+                <img src="images/aws_black.png" alt="aws" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://github.com/ptdang1/HackerRank">
+                <img src="images/hackerrank_black.png" alt="hackerrank" style="width:100%"/>
+              </a>
+              
+            </div>
+         </div>
+         <!-- Row2-->
+         <br/><br/>
 
-       <div class="row">
-          <div class="column">
-            
-            <a href ="https://github.com/ptdang1/Algorithms">
-              <img src="images/algorithm_black.png" alt ="algorithms" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href ="https://github.com/ptdang1/Pythons">
-              <img src="images/python_black.jpeg" alt ="github" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href ="http://homepages.neiu.edu/~ptdang1/Project1/">
-              <img src="images/project.jpg" alt="html" style="width:100%"/>
-            </a>
-          </div>
-          <div class="column">
-            <a href="http://homepages.neiu.edu/~ptdang1/Project2/project2temp_home.html">
-              <img src="images/html_black.jpeg" alt="html" style="width:100%"/>
-            </a>
-            
-          </div>
-       </div>
+         <div class="row">
+            <div class="column">
+              
+              <a href ="https://github.com/ptdang1/Algorithms">
+                <img src="images/algorithm_black.png" alt ="algorithms" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href ="https://github.com/ptdang1/Pythons">
+                <img src="images/python_black.jpeg" alt ="github" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href ="http://homepages.neiu.edu/~ptdang1/Project1/">
+                <img src="images/project.jpg" alt="html" style="width:100%"/>
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://homepages.neiu.edu/~ptdang1/Project2/project2temp_home.html">
+                <img src="images/html_black.jpeg" alt="html" style="width:100%"/>
+              </a>
+              
+            </div>
+         </div>
 
   <!-- About section -->
   <div class="padding-bottom-32">
@@ -150,14 +151,21 @@
   <div id="contact">
       <h3>Contact</h3>
       <hr>
-      <p>Lets get in touch and talk about our next project.</p>
+      <div class="section-contact">
+      <i class="fa fa-map-marker"></i> Chicago, US <br/>
+      <i class="fa fa-phone"></i> Phone: +1 (847) 730-4050 <br/>
+      <i class="fa fa-envelope-o"></i> Email: ptdang1@neiu.edu | phudang1493@gmail.com <br/>
+
+      <p>Lets get in touch. Send me a message</p>
+      </div>
         <form action="action_page.php" target="_blank" method="post">
           <input class="input" type="text" placeholder="Name" required name="Name">
           <input class="input" type="text" placeholder="Email" required name="Email">
           <input class="input" type="text" placeholder="Subject" required name="Subject">
-          <input class="input" type="text" placeholder="Comment" required name="Comment">
+          <input class="input" type="text" placeholder="Message" required name="Messages">
           <button class="button-black" type="submit">
-            <i></i> SEND MESSAGE
+            
+                  <i class="fa fa-send"></i> SEND MESSAGE:
           </button>
         </form>
 
@@ -169,6 +177,12 @@
 
 <!-- Footer -->
   <div class="footer">
+    <a href="#home">
+              <button class="button section">
+                <i class="fa fa-arrow-up"></i> GO TO TOP
+               </button>
+          </a>
+    <br/>
     Designed by PD Designs <br/>
     2030 Washington Ave <br/>
     Wilmette, IL 60091 (847) 730-4050
