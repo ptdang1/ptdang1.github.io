@@ -2,10 +2,27 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    font-size: 70px;
+    letter-spacing: 4px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #1a2930;
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+h3 {font-size: 28px;font-family: 'Lato', sans-serif;letter-spacing: 3px;}
+h4 {font-size: 20px;font-family: 'Lato', sans-serif;}
+h5 {font-size: 18px;font-family: 'Lato', sans-serif;}
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* Style the top navigation bar */
@@ -14,6 +31,8 @@ body {
     background-color: white;
     position: fixed;
     width: 100%;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Style the topnav links */
@@ -25,6 +44,7 @@ body {
     padding: 18px 20px;
     text-decoration: none;
 }
+/* Move the nav to right */
 .top-right {
     margin-right: 16px;
     text-align: right;
@@ -38,10 +58,14 @@ body {
 
 .display-container {
     display: inline-block;
+    background-color: #000;
     text-align: center;
     color: white;
     font-style:oblique;
     font-family: vivaldi, sans-serif;
+    height: 800px;
+    padding: 160px;
+    width: 100%;
 }
 .centered {
     position: absolute;
@@ -65,8 +89,8 @@ body {
 
 }
 .padding-32 {
-    padding-top: 32px !important;
-    padding-bottom: 32px !important
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* 4 images in a same row */
@@ -113,6 +137,7 @@ body {
     background-color: black;
     padding: 10px;
     color: white;
+    letter-spacing: 2px;
 }
 
 
@@ -134,4 +159,48 @@ body {
     font-size:18px;
     padding: 12px;
 }
+.button:hover {
+    color: #000 !important;
+    background-color: #ccc;
+    display: inline-block;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.section{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    color: #000 ;
+    background-color: #f1f1f1;
+    padding: 14px 38px;
+    text-decoration: none;
+
+
+}
+.padding-bottom-32{
+    padding-bottom: 32px;
+}
+.skills{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 

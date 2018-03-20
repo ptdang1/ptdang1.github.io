@@ -5,7 +5,7 @@ $password = "";
 $dbname = "Contact_Portfolio";
 
 $username1 = $_POST['Name'];
-$email = $_POST['email'];
+$email = $_POST['Email'];
 $subject = $_POST['Subject'];
 $comment = $_POST['Comment'];
 
@@ -17,7 +17,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO AppointmentRequest (Name, Email,Subject,Comment)
+$sql = "INSERT INTO Contact_Portfolio (Name, Email,Subject,Comment)
 VALUES ('$username1','$email','$subject','$comment')";
 
 if(empty($username1) || empty($email) || empty($subject) || empty($comment))
@@ -25,7 +25,7 @@ if(empty($username1) || empty($email) || empty($subject) || empty($comment))
     echo "You did not fill out the required fields.";
 }
 elseif (mysqli_query($conn, $sql)) {
-    echo "Thank You For Your Appointment!";
+    echo "Thank You!";
 } 
 
 

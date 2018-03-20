@@ -3,6 +3,10 @@
 <head>
 <title>Portfolio</title>
 <meta charset="UTF-8">
+<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -10,9 +14,9 @@
 <body>
 <!-- Navbar (sit on top) missing ID link to resume-->
 <div class="topnav">
+
       <a href="#home"><b>PD</b> Portfolio</a>
     <div class="top-right">
-      <a href="resume.pdf">Resume</a>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -21,20 +25,26 @@
 
 <!-- Header -->
 <div class="display-container" id="home">
-
-
-  <img class ="images" src="images/portfolio.jpg" alt="Architecture" width="100%"/>
-  <div class="centered">
-  <h2>WELCOME TO MY PORTFOLIO</h2>
-  </div>
+  <h1>Phu Dang</h1>
+            <h3 class="padding-bottom-32">Software Engineer and Web Designer.</h3>
+          
+            <a href="resume.pdf">
+		            <button class="button section">
+		            	<i class="fa fa-download"></i> RESUME
+		            </button>
+        	</a>
+        	 <a href="https://github.com/ptdang1">
+	            <button class="button section">
+	              <i class="fa fa-github"></i> GITHUB
+           		 </button>
+        	</a>
 
 </div>
+  <div class="padding-bottom-32">
+  </div>
 
 <!-- Page content -->
-<br/>
-<br/>
-<br/>
-<br/>
+
 <div class="content">
   <!-- Project-->
       <h3 id="projects">Projects</h3>
@@ -83,52 +93,69 @@
           </div>
           <div class="column">
             <a href ="http://homepages.neiu.edu/~ptdang1/Project1/">
-              <img src="images/html_black.jpeg" alt="html" style="width:100%"/>
+              <img src="images/project.jpg" alt="html" style="width:100%"/>
             </a>
           </div>
           <div class="column">
             <a href="http://homepages.neiu.edu/~ptdang1/Project2/project2temp_home.html">
-              <img src="images/project.jpg" alt="html" style="width:100%"/>
+              <img src="images/html_black.jpeg" alt="html" style="width:100%"/>
             </a>
             
           </div>
        </div>
 
   <!-- About section -->
-  <br/>
-  <br/>
-  <br/>
+  <div class="padding-bottom-32">
+  </div>
+    <div class="padding-bottom-32">
+  </div>
+      <div class="padding-bottom-32">
+  </div>
+
 
   <h3 id="about">About Me</h3>
   <hr>
-  <br/>
+    <div class="padding-bottom-32">
+  </div>
 
   <div style="padding:10px; text-align:center;">
-        <img src="images/pd.jpg" alt="a picture of myself">
-        <h4>Phu Dang<br/>Software Engineer</h4>
-        <p>I’m passionate about code, startups, and technology. Always learning, always growing, and always pursuing a better way.
-    </p>
+        <img src="images/pd.jpg" style="border-radius:100%;" alt="a picture of myself">
+        <h3 style="font-family: 'Lato', sans-serif;">Phu Dang</h3>
+        <q>Never Stop Learning</q>
   </div>
   <br/>
-    <dl>
-          <dt><u>TECHNICAL SKILLS</u></dt>
-          <dd>Languages: Java, JavaScript, Python, HTML, CSS, PHP, SQL, Swift</dd>
-          <dd>Tools: IntelliJ IDEAL, Eclipse, Android Studio, Xcode, Sublime Text, Text Wrangler, Notepad++, jGRASP, Microsoft Office</dd>
-          <dd>Operating Systems: Windows, Mac OS X, Linux</dd>
-    </dl>
 
-<br/><br/><br/><br/>
+
+  <div class="skills">
+    <dl>
+          <dd><u>TECHNICAL SKILLS</u></dd>
+          <dd><b>Languages:</b> Java, JavaScript, Python, HTML, CSS, PHP, SQL, Swift, jQuery, JSON</dd>
+          <dd><b>Tools:</b> IntelliJ IDEA, Eclipse, Android Studio, Xcode, Sublime Text, NetBeans, Notepad++, Microsoft Office</dd>
+          <dd><b>Operating Systems:</b> Windows, Mac OS X, Linux</dd>
+    </dl>
+  </div>
+
+  <div class="padding-bottom-32">
+  </div>
+  
+  <div class="padding-bottom-32">
+  </div>
+  
+  <div class="padding-bottom-32">
+  </div>
+  
+
 
   <!-- Missing Contact Section -->
   <div id="contact">
       <h3>Contact</h3>
       <hr>
-      <p>Lets get in touch and talk about your and our next project.</p>
+      <p>Lets get in touch and talk about our next project.</p>
         <form action="action_page.php" target="_blank" method="post">
           <input class="input" type="text" placeholder="Name" required name="Name">
-          <input class="input section" type="text" placeholder="Email" required name="Email">
-          <input class="input section" type="text" placeholder="Subject" required name="Subject">
-          <input class="input section" type="text" placeholder="Comment" required name="Comment">
+          <input class="input" type="text" placeholder="Email" required name="Email">
+          <input class="input" type="text" placeholder="Subject" required name="Subject">
+          <input class="input" type="text" placeholder="Comment" required name="Comment">
           <button class="button-black" type="submit">
             <i></i> SEND MESSAGE
           </button>
@@ -143,9 +170,9 @@
 <!-- Footer -->
   <div class="footer">
     Designed by PD Designs <br/>
-    2030 Washinton Ave <br/>
+    2030 Washington Ave <br/>
     Wilmette, IL 60091 (847) 730-4050
-  </footer>
+  </div>
 </div>
 
 </body>
