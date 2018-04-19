@@ -17,7 +17,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO Contact_Portfolio (Name, Email,Subject,Comment)
+$sql = "INSERT INTO contact (Name,Email,Subject,Comment)
 VALUES ('$username1','$email','$subject','$comment')";
 
 if(empty($username1) || empty($email) || empty($subject) || empty($comment))
